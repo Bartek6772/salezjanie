@@ -56,18 +56,22 @@ nav{
                 opacity: 0;
             }
 
-            &:hover::after{
-                bottom: 0px;
-                opacity: 1;
-            }
-    
-            &.active::after{
-                bottom: 0px;
-                opacity: 1;
+            &.active{
+                color: $color-1;
+                
+                &::after{
+                    bottom: 0px;
+                    opacity: 1;
+                }
             }
             
             &:hover{
                 color: $color-1;
+
+                &::after{
+                    bottom: 0px;
+                    opacity: 1;
+                }
             }
         }
     }
