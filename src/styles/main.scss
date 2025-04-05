@@ -1,0 +1,37 @@
+@use "./variables.scss" as *;
+
+body{
+    margin: 0;
+
+    // font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+    // font-family: "Roboto", sans-serif;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+
+    // font-variation-settings:
+    //     "wdth" 100;
+
+    // font-synthesis: none;
+    // text-rendering: optimizeLegibility;
+    // -webkit-font-smoothing: antialiased;
+    // -moz-osx-font-smoothing: grayscale;
+
+    background-color: $color-3;
+}
+
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    color: $color-4;
+    letter-spacing: 0.5px;
+}
+*{
+    box-sizing: border-box;
+}
