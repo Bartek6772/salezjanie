@@ -1,6 +1,6 @@
 import "./button.scss";
 
-const Button = ({children, scrollTo}) => {
+const Button = ({children, scrollTo, dark}) => {
 
     const handleScroll = () => {
         if(scrollTo != null)
@@ -8,7 +8,7 @@ const Button = ({children, scrollTo}) => {
     };
 
     return (
-        <div className="button" onClick={handleScroll}>
+        <div className={"button " + (dark ? "dark" : "")}onClick={handleScroll}>
             <div className="text">
                 {children}
             </div>

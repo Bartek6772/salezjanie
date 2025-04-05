@@ -1,6 +1,6 @@
 @use "./../../styles/variables.scss" as *;
 
-.button{
+.button {
     border: 1px solid $color-3;
     padding: 10px 30px;
     color: $color-3;
@@ -9,38 +9,21 @@
     // background-color: #00000063;
     font-size: 1.1rem;
 
-    transition: all 0.2s;
+    transition: all 0.3s;
     cursor: pointer;
-
-    position: relative;
     overflow: hidden;
 
-    .text{
-        // position: absolute;
-        // top: 50%;
-        // left: 50%;
-        // transform: translate(-50%, -50%);
-        z-index: 1;
-    }
+    &.dark{
+        border-color: $color-4;
+        color: $color-4;
 
-    &::after{
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: $color-1;
-        bottom: -100%;
-        transition: all 0.2s;
-        z-index: -1;
-    }
-
-    &:hover{
-        
-        // color: $color-1;
-        &::after{
-            bottom: 0;
+        &:hover{
+            color: $color-3;
         }
+    }
+
+    &:hover {
+        box-shadow: inset 0 -3.25em 0 0 $color-1;
+        border-color: $color-1;
     }
 }
