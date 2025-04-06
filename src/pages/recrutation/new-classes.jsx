@@ -47,7 +47,7 @@ const NewClasses = () => {
                     <ul>
                         {c.subjects.map(s => <li key={s}>{s}</li>)}
                     </ul>
-                    <Button to="/rekrutacja" dark>O klasie</Button>
+                    <Button to={"/rekrutacja#class" + c.id} dark>O klasie</Button>
                 </div>
             )}
 

@@ -37,7 +37,7 @@ const Navbar = () => {
                     <NavLink to="/patron" className={({isActive}) => isActive ? "active" : ""}>Patron</NavLink>
                     <NavLink to="/dla-uczniow" className={({isActive}) => isActive ? "active" : ""}>Dla uczniów</NavLink>
                     <NavLink to="/rekrutacja" className={({isActive}) => isActive ? "active" : ""}>Rekrutacja</NavLink>
-                    <NavLink to="/oratorium" className={({isActive}) => isActive ? "active" : ""}>Oratorium</NavLink>
+                    <NavLink to="/oratorium" className={({isActive}) => isActive ? "active" : ""}>Życie szkoły</NavLink>
                     {/* <NavLink to="/nauka" className={({isActive}) => isActive ? "active" : ""}>Nauka</NavLink> */}
                     {/* <NavLink to="/do-pobrania" className={({isActive}) => isActive ? "active" : ""}>Do pobrania</NavLink> */}
                 </div>

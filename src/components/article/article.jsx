@@ -1,8 +1,8 @@
 import "./article.scss";
 
-const Article = ({title, image, children, noShadow}) => {
+const Article = ({title, image, children, noShadow, id}) => {
     return (
-        <article className="article">
+        <article className="article" id={id}>
             <div className="text">
                 {(title != "") && <h3>{title}</h3>}
                 {children}
@@ -14,9 +14,9 @@ const Article = ({title, image, children, noShadow}) => {
     )
 }
 
-const ArticleReversed = ({title, image, children, noShadow}) => {
+const ArticleReversed = ({title, image, children, noShadow, id}) => {
     return (
-        <article className="article">
+        <article className="article" id={id}>
             <div className={"image" + (noShadow ? " no-shadow" : "")}>
                 <img src={image} />
             </div>
@@ -28,9 +28,9 @@ const ArticleReversed = ({title, image, children, noShadow}) => {
     )
 }
 
-const DoubleArticle = ({title, children}) => {
+const DoubleArticle = ({title, children, id}) => {
     return (
-        <article className="article double">
+        <article className="article double" id={id}>
             <div className="text">
                 {(title != "") && <h3>{title}</h3>}
                 <div>

@@ -1,5 +1,8 @@
 import './styles/main.scss';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import AutoScroll from './utils/AutoScroll';
+import ScrollToTop from "./utils/ScrollToTop";
 import Navbar from './components/navbar/navbar';
 import Footer from './components/footer/footer';
 
@@ -9,11 +12,6 @@ import Patron from './pages/patron/patron';
 import Students from './pages/students/students';
 import Recrutation from './pages/recrutation/recrutation';
 import NotFound from "./pages/not-found/not-found";
-
-import ScrollToTop from "./utils/ScrollToTop";
-
-import AutoScroll from './utils/AutoScroll';
-
 import Oratorium from './pages/oratorium/oratorium';
 
 function App() {

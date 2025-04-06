@@ -1,8 +1,8 @@
 import "./home.scss";
 import Image from "./../../assets/DPP_0265.jpg";
 import Image1 from "./../../assets/DPP_0257.jpg";
-import Image2 from "./../../assets/hero2.jpg";
-import Image3 from "./../../assets/hero3.jpg";
+import Image2 from "./../../assets/agh2.jpg";
+import Image3 from "./../../assets/agh.jpg";
 import Image4 from "./../../assets/bosco3.jpg";
 import Image5 from "./../../assets/bosco2.jpg";
 import Image6 from "./../../assets/629754fa4d539_o_large.jpg";
@@ -14,19 +14,19 @@ import NewClasses from "../recrutation/new-classes";
 import Numbers from "../../components/numbers/numbers";
 
 const news = [
-    { id: 1,name: "Nowe zdjęcie profilowe 1", image: Image2 },
-    { id: 3,name: "Gry na boisku szkolnym", image: Image1 },
-    { id: 2,name: "Nowe zdjęcie 2", image: Image3 },
+    { id: 1,name: "Dzień otwarty", image: Image6 },
+    { id: 3,name: "Zajęcia sportowe na boisku szkolnym", image: Image1 },
+    { id: 2,name: "Olimpiada o diamentowy indeks AGH", image: Image3 },
     { id: 4,name: "Tombola - wspomnienie Jana Bosco", image: Image4 },
-    { id: 5,name: "Nowa linia autobusowa", image: Image6 },
+    { id: 5,name: "Wizyta na akademi górniczo-hutnicznej", image: Image2 },
     { id: 6,name: "Fakty i ciekawostki o Janie Bosco", image: Image5 },
 ]
 
 const nums = [
     {name: "Lat", num: "20+"},
-    {name: "Absolwentów", num: "2500+"},
+    {name: "Absolwentów", num: "2100+"},
     {name: "Stypedystów", num: "356"},
-    {name: "Nauczycieli", num: "47"},
+    {name: "Nauczycieli", num: "47+"},
 ]
 
 const Home = () => {
