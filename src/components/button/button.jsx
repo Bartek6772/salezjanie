@@ -1,18 +1,18 @@
 import "./button.scss";
+import { Link } from "react-router-dom";
 
-const Button = ({children, scrollTo, dark}) => {
 
-    const handleScroll = () => {
-        if(scrollTo != null)
-            scrollTo.current?.scrollIntoView({ behavior: "smooth" });
-    };
+const Button = ({ children, to, dark }) => {
+
+    // const handleScroll = () => {
+    //     if (scrollTo != null)
+    //         scrollTo.current?.scrollIntoView({ behavior: "smooth" });
+    // };
 
     return (
-        <div className={"button " + (dark ? "dark" : "")}onClick={handleScroll}>
-            <div className="text">
-                {children}
-            </div>
-        </div>
+        <Link to={to} className={"button " + (dark ? "dark" : "")}>
+            {children}
+        </Link>
     )
 }
 

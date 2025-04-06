@@ -19,4 +19,25 @@ const Page = ({title, children}) =>{
     )
 }
 
+const PageNoContainer = ({title, children}) =>{
+    return(
+        <main className="subpage">
+
+            <header className="header">
+                <div className="container">
+                    <h2>{title}</h2>
+                </div>
+            </header>
+
+            <section>
+                {children}
+            </section>
+        </main>
+    )
+}
+
+
 export default Page;
+export{
+    PageNoContainer,
+}
