@@ -73,6 +73,24 @@ const Home = () => {
 
             <div className="container">
                 <NewClasses/>
+
+                <div className="contact">
+                    <h2>Skontaktuj się z nami</h2>
+                    <div className="content">
+                        <div className="col">
+                            <p>os. Piastów 34, 31-624 Kraków</p>
+                            <p><b>Telefon Kontaktowy:</b> <br/>12 648 04 89</p>
+                            <p><b>Adres Email: </b><br/>szkolanh@salezjanie.com</p>
+                            <p><b>NIP:</b> <br/> 6782861965</p>
+                        </div>
+                        <div className="col">
+                            <p>Godziny pracy sekretariatu</p>
+                            <p>sekretariat@salezjanie.com</p>
+                            <p><b>Poniedziałek, wtorek, środa, piątek</b><br/>7:45 - 14:45</p>
+                            <p><b>Czwartek </b><br/>11:00 - 18:00</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             

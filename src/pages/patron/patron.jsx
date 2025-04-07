@@ -10,25 +10,29 @@ const Patron = () => {
         <Page title="O szkole">
             <Article title="Św. Jan Bosco" image={JohnBosco}>
                 <p>
-                    Urodził się 16 sierpnia 1815 r. w Becchi w północnych Włoszech (obecna nazwa tej miejscowości to Castelnuovo Don Bosco). Gdy miał zaledwie 2 lata, zmarł jego ojciec Franciszek.
+                Jan Bosko urodził się 16 sierpnia 1815 roku w miejscowości Becchi na północy Włoch (dziś znanej jako Castelnuovo Don Bosco). Kiedy miał zaledwie dwa lata, zmarł jego ojciec, Franciszek.
                 </p>
                 <p>
-                    Jan Bosko jako kilkuletni chłopiec, widząc jak wielkim powodzeniem cieszą się przygodni kuglarze i cyrkowcy, za pozwoleniem swej matki zaczął ich naśladować. W ten sposób zbierał mieszkańców swojego osiedla i zabawiał ich w niedziele i święta, przeplatając popisy modlitwą, pobożnym śpiewem i “kazaniem”, które było powtórzeniem wcześniej usłyszanego w kościele.
+                Jako kilkuletni chłopiec zafascynował się kuglarzami i cyrkowcami, którzy przyciągali uwagę tłumów. Za zgodą matki sam zaczął ich naśladować, organizując dla mieszkańców swojego otoczenia pokazy w niedziele i święta. Łączył występy z modlitwą, śpiewem religijnym i prostym „kazaniem” — powtórzeniem tego, co usłyszał w kościele.
                 </p>
                 <p>
-                    Pierwszą Komunię św. przyjął, gdy miał 11 lat. Dopiero w wieku 14 lat rozpoczął naukę u pewnego kapłana. Po przerwie spowodowanej śmiercią tego księdza, ukończył szkołę podstawową i średnią pracując na swoje utrzymanie. Ukończył Wyższe Seminarium Duchowne w Turynie, gdzie 5 czerwca 1841 roku przyjął święcenia kapłańskie.
+                Pierwszą Komunię Świętą przyjął w wieku 11 lat. Naukę rozpoczął dopiero jako czternastolatek, ucząc się u jednego z kapłanów. Po jego śmierci musiał przerwać edukację, ale później ukończył szkołę podstawową i średnią, samodzielnie się utrzymując. Studiował w Wyższym Seminarium Duchownym w Turynie, gdzie 5 czerwca 1841 roku przyjął święcenia kapłańskie.
                 </p>
             </Article>
 
             <ArticleReversed title="" image={JohnBosco2}>
                 <p>
-                    Za radą św. Józefa Cafasso wstąpił do konwiktu w celu pogłębiania swojej wiary i wiedzy. Szybko rozpoczął działalność polegającą na niesieniu wszechstronnej pomocy młodzieży, która wówczas bardzo licznie napływała do szybko rozwijającego się miasta, by szukać środków na utrzymanie.
+                Za namową św. Józefa Cafasso Jan Bosko wstąpił do konwiktu, by pogłębić swoją wiarę i wiedzę. Wkrótce potem rozpoczął działalność na rzecz młodzieży, która tłumnie przybywała do rozwijającego się miasta w poszukiwaniu pracy i lepszego życia.
                 </p>
                 <p>
-                    Jako datę rozpoczęcia przez ks. Bosko pracy z młodzieżą, która to praca wkrótce przerodziła się w wielkie dzieło, przyjmuje się dzień 8.12.1841 r. – uroczystość Niepokalanego Poczęcia Matki Bożej. Ponieważ ciągle przybywało tych, którym potrzebna była pomoc włącznie z udzieleniem dachu nad głową, ks. Bosko zaczął organizować specjalne domy. Tak powstały oratoria i szkoły. Dla zapewnienia lepszej opieki i w celu rozszerzania dzieła, ks. Bosko założył Towarzystwo św. Franciszka Salezego (1859) i zgromadzenie Córek Maryi Wspomożycielki Wiernych (1872).
+                Za początek jego pracy z młodymi ludźmi uznaje się 8 grudnia 1841 roku — uroczystość Niepokalanego Poczęcia Najświętszej Maryi Panny. W miarę jak przybywało potrzebujących, także takich, którzy nie mieli gdzie mieszkać, ks. Bosko zaczął tworzyć specjalne domy. W ten sposób powstały oratoria i szkoły.
+                </p>
+                <p>
+                Aby lepiej zorganizować opiekę i rozwijać swoje dzieło, założył w 1859 roku Towarzystwo św. Franciszka Salezego, a w 1872 — zgromadzenie Córek Maryi Wspomożycielki Wiernych.
                 </p>
 
                 <Button to="/o-szkole" dark>Kontynuatorzy dzieła</Button>
+                <Button to="/patron/daty" dark style={{marginLeft: 20 + 'px'}}>Daty z życia</Button>
             </ArticleReversed>
 
             <Article title="Franciszek Salezy" image={Salezy}>

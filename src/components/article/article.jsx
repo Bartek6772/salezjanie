@@ -3,13 +3,15 @@ import "./article.scss";
 const Article = ({title, image, children, noShadow, id}) => {
     return (
         <article className="article" id={id}>
-            <div className="text">
+            <div className={"text " + (image == null ? "no-image" : "")}>
                 {(title != "") && <h3>{title}</h3>}
                 {children}
             </div>
-            <div className={"image" + (noShadow ? " no-shadow" : "")}>
-                <img src={image} />
-            </div>
+            {image == null ? "" : (
+                <div className={"image" + (noShadow ? " no-shadow" : "")}>
+                    <img src={image} />
+                </div>
+            )}   
         </article>
     )
 }
@@ -17,9 +19,11 @@ const Article = ({title, image, children, noShadow, id}) => {
 const ArticleReversed = ({title, image, children, noShadow, id}) => {
     return (
         <article className="article" id={id}>
-            <div className={"image" + (noShadow ? " no-shadow" : "")}>
-                <img src={image} />
-            </div>
+            {image == null ? "" : (
+                <div className={"image" + (noShadow ? " no-shadow" : "")}>
+                    <img src={image} />
+                </div>
+            )}   
             <div className="text">
                 {(title != "") && <h3>{title}</h3>}
                 {children}

@@ -8,8 +8,8 @@ import Cards from "../../components/cards/cards";
 import "./about.scss";
 
 const data1 = [
-    { name: "Salezjan", num: "14 476" },
-    { name: "Kraje", num: "133" },
+    { name: "Salezjan", num: "14 777" },
+    { name: "Kraje", num: "132" },
     { name: "Kontynentów", num: "5" },
 ]
 
@@ -20,8 +20,6 @@ const data2 = [
     {name: "Szacunek", text: "Wychowanie to także głęboki szacunek do młodego człowieka przejawiający się nieustannym wysiłkiem w udzielaniu wsparcia i okazywaniem zrozumienia dla problemów młodzieży."},
 ]
 
-
-
 const About = () => {
     return (
         <PageNoContainer title="O szkole">
@@ -30,20 +28,22 @@ const About = () => {
 
                 <Article title="Salezjanie" image={Herb} noShadow>
                     <p>
-                        Zgromadzenie Salezjańskie czyli Towarzystwo św. Franciszka Salezego zostało założone przez św. Jana Bosko w drugiej połowie XIX w. w Turynie.
+                        Zgromadzenie Salezjańskie, znane także jako Towarzystwo św. Franciszka Salezego, zostało założone przez św. Jana Bosko w drugiej połowie XIX wieku w Turynie.
                     </p>
                     <p>
-                        W roku 1888 zgromadzenie liczyło 774 członków i 57 wspólnot zakonnych w dziewięciu państwach Europy i Ameryki. Salezjanie kontynuują dzieło swojego założyciela urzeczywistniając tajemnicę zbawienia przede wszystkim w życiu młodzieży.
+                    W 1888 roku liczyło już 774 członków i 57 wspólnot zakonnych działających w dziewięciu krajach Europy i Ameryki. Dziś salezjanie nadal realizują misję swojego założyciela, koncentrując się na towarzyszeniu młodym ludziom w ich drodze do zbawienia.
+                    </p>
+                    
+                    <p>
+                    Charyzmat salezjański przejawia się w różnorodnych formach działalności: poprzez wychowanie, pracę misyjną, ewangelizację za pośrednictwem mediów oraz prowadzenie ośrodków duszpasterskich, szczególnie w środowiskach ubogich i potrzebujących wsparcia.
                     </p>
                     <p>
-                        Charyzmat salezjański urzeczywistnia się w różnych formach pracy i zaangażowania duszpasterskiego: na polu wychowania, misji, ewangelizacji poprzez środki społecznego przekazu oraz prowadzenie różnych ośrodków duszpasterskich szczególnie w środowiskach ubogich.
-                    </p>
-                    <p>
-                        Głównym posłannictwem zgromadzenia jest jednak wychowanie młodzieży. Ksiądz Bosko określił metodę wychowawczą przez siebie wypracowaną jako system prewencyjny, bądź zapobiegawczy.
+                    Najważniejszym zadaniem zgromadzenia pozostaje wychowanie młodzieży. Ks. Bosko opracował w tym celu system prewencyjny — metodę wychowawczą opartą na zapobieganiu, a nie karaniu, kładąc nacisk na rozum, religię i miłość wychowawczą.
                     </p>
 
-                    <Button to="/patron" dark>Pozanj naszego patrona</Button>
+                    <Button to="/o-szkole/historia" dark>Historia Salezjan w Polsce</Button>
                 </Article>
+                
             </div>
 
             <Numbers numbers={data1} />
@@ -81,6 +81,10 @@ const About = () => {
                         </p>
                     </div>
                 </DoubleArticle>
+
+                <Article title="Salezjański model wychowania">
+                    <p>W szkole realizowany jest salezjański model wychowania, oparty na systemie wychowawczym, stworzonym przez świętego Jana Bosko, opartym na dobroci, serdeczności, przyjaźni wzajemnym zaufaniu i zrozumieniu. Elementem tego systemu jest codzienna, wspólna modlitwa przed lekcjami oraz poranne „słówko” głoszone przez księży salezjanów. Inne elementy religijnego wychowania to uczestniczenie we Mszy świętej z okazji ważnych uroczystości szkolnych oraz świąt kościelnych. 31 stycznia każdego roku uroczyście obchodzi się dzień świętego Jana Bosco –patrona szkoły. Z tej okazji co roku organizujemy tombolę - loterię z nagrodami, w której udział bierze każdy uczeń.</p>
+                </Article>
             </div>
 
         </PageNoContainer>

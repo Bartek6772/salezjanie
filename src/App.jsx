@@ -13,6 +13,8 @@ import Students from './pages/students/students';
 import Recrutation from './pages/recrutation/recrutation';
 import NotFound from "./pages/not-found/not-found";
 import Oratorium from './pages/oratorium/oratorium';
+import Dates from './pages/dates/dates';
+import History from './pages/history/history';
 
 function App() {
 
@@ -24,11 +26,17 @@ function App() {
 
             <Routes>
                 <Route path='/' element={<Home />} />
+
                 <Route path='/patron' element={<Patron />} />
+                <Route path='/patron/daty' element={<Dates />} />
+
                 <Route path='/o-szkole' element={<About />} />
+                <Route path='/o-szkole/historia' element={<History />} />
+
                 <Route path='/dla-uczniow' element={<Students />} />
                 <Route path='/rekrutacja' element={<Recrutation />} />
                 <Route path='/oratorium' element={<Oratorium />} />
+                
                 <Route path='*' element={<NotFound />} />
             </Routes>
 
