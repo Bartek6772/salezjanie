@@ -18,7 +18,7 @@
         margin-bottom: 20px;
         border-radius: $radius;
         // background-color: #e7e7e7;
-        box-shadow: 0px 2px 8px #00000042;
+        box-shadow: $shadow;
 
         span{
             font-size: 1.5rem;

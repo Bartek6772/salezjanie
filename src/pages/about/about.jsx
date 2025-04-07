@@ -4,6 +4,7 @@ import Herb from "./../../assets/herb.png";
 import Button from "../../components/button/button";
 import Numbers from "../../components/numbers/numbers";
 import Cards from "../../components/cards/cards";
+import Filary from "./../../assets/filary.png";
 
 import "./about.scss";
 
@@ -40,7 +41,6 @@ const About = () => {
                     <p>
                     Najważniejszym zadaniem zgromadzenia pozostaje wychowanie młodzieży. Ks. Bosko opracował w tym celu system prewencyjny — metodę wychowawczą opartą na zapobieganiu, a nie karaniu, kładąc nacisk na rozum, religię i miłość wychowawczą.
                     </p>
-
                     <Button to="/o-szkole/historia" dark>Historia Salezjan w Polsce</Button>
                 </Article>
                 
@@ -82,9 +82,9 @@ const About = () => {
                     </div>
                 </DoubleArticle>
 
-                <Article title="Salezjański model wychowania">
+                <ArticleReversed title="Salezjański model wychowania" image={Filary}>
                     <p>W szkole realizowany jest salezjański model wychowania, oparty na systemie wychowawczym, stworzonym przez świętego Jana Bosko, opartym na dobroci, serdeczności, przyjaźni wzajemnym zaufaniu i zrozumieniu. Elementem tego systemu jest codzienna, wspólna modlitwa przed lekcjami oraz poranne „słówko” głoszone przez księży salezjanów. Inne elementy religijnego wychowania to uczestniczenie we Mszy świętej z okazji ważnych uroczystości szkolnych oraz świąt kościelnych. 31 stycznia każdego roku uroczyście obchodzi się dzień świętego Jana Bosco –patrona szkoły. Z tej okazji co roku organizujemy tombolę - loterię z nagrodami, w której udział bierze każdy uczeń.</p>
-                </Article>
+                </ArticleReversed>
             </div>
 
         </PageNoContainer>

@@ -1,4 +1,6 @@
-import Page from "../../components/page/page"
+import Page from "../../components/page/page";
+import Button from "../../components/button/button";
+
 
 const Dates = () => {
     return (
@@ -36,6 +38,7 @@ const Dates = () => {
                 <li>1929 – beatyfikacja ks. Bosko</li>
                 <li>1934 – 1 kwietnia Jan Bosko został ogłoszony świętym Kościoła katolickiego</li>
             </ul>
+            <Button to="https://sdb.org.pl/sw-jan-bosco-historia/" dark>Źródło: sdb.org</Button>
         </Page>
     )
 }

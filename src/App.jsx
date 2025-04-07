@@ -15,6 +15,7 @@ import NotFound from "./pages/not-found/not-found";
 import Oratorium from './pages/oratorium/oratorium';
 import Dates from './pages/dates/dates';
 import History from './pages/history/history';
+import Credits from './pages/credits/credits';
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
                 <Route path='/dla-uczniow' element={<Students />} />
                 <Route path='/rekrutacja' element={<Recrutation />} />
                 <Route path='/oratorium' element={<Oratorium />} />
+                <Route path='/credits' element={<Credits />} />
                 
                 <Route path='*' element={<NotFound />} />
             </Routes>

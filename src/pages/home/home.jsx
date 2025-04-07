@@ -84,7 +84,7 @@ const Home = () => {
                             <p><b>NIP:</b> <br/> 6782861965</p>
                         </div>
                         <div className="col">
-                            <p>Godziny pracy sekretariatu</p>
+                            {/* <p>Godziny pracy sekretariatu</p> */}
                             <p>sekretariat@salezjanie.com</p>
                             <p><b>Poniedziałek, wtorek, środa, piątek</b><br/>7:45 - 14:45</p>
                             <p><b>Czwartek </b><br/>11:00 - 18:00</p>
