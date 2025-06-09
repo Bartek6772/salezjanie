@@ -6,3 +6,8 @@ Pliki należy pobrać i zainstalowac potrzebne paczki (`npm install`), następni
 
 https://www.npmjs.com <br>
 https://nodejs.org/en
+
+W celu wyświetlenia można użyć również linku poniżej.
+
+## Link do wersji online
+https://bartek6772.github.io/salezjanie/
