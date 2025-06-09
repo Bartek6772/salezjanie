@@ -1,5 +1,5 @@
 import './styles/main.scss';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import AutoScroll from './utils/AutoScroll';
 import ScrollToTop from "./utils/ScrollToTop";
